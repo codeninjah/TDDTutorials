@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTDDTutorial1", "Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDTutorial1Tests", "TDDTutorial1Tests\TDDTutorial1Tests.csproj", "{53068FA3-CB8A-421B-A4DE-BC19EC687075}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorial1", "Tutorial1", "{67DC38B8-34B1-421D-BE25-786DEACC4395}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9226E3CF-2308-4B5F-94B4-8B868070AD65} = {67DC38B8-34B1-421D-BE25-786DEACC4395}
+		{B518E8FC-B6C7-43B9-B6AC-9FD765C63BB3} = {67DC38B8-34B1-421D-BE25-786DEACC4395}
+		{53068FA3-CB8A-421B-A4DE-BC19EC687075} = {67DC38B8-34B1-421D-BE25-786DEACC4395}
 	EndGlobalSection
 EndGlobal

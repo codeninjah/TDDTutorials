@@ -9,7 +9,7 @@ namespace TDDTutorial1Tests
 	{
 
 		[TestMethod]
-		public void DividedBy3()
+		public void AreDividedBy3()
 		{
 			FizzBuzzLibrary delaMedTre = new FizzBuzzLibrary();
 			var expected = delaMedTre.NummerSträng(3);
@@ -20,7 +20,7 @@ namespace TDDTutorial1Tests
 		}
 
 		[TestMethod]
-		public void AreNotDividedBy5()
+		public void AreDividedBy5()
 		{
 			FizzBuzzLibrary delaMedTre = new FizzBuzzLibrary();
 			var expected = delaMedTre.NummerSträng(5);
@@ -34,9 +34,9 @@ namespace TDDTutorial1Tests
 		public void AreNotDividedBy3Or5()
 		{
 			FizzBuzzLibrary delaMedTre = new FizzBuzzLibrary();
-			var expected = delaMedTre.NummerSträng(4);
+			var expected = delaMedTre.NummerSträng(1);
 
-			var actual = delaMedTre.NummerSträng(4);
+			var actual = delaMedTre.NummerSträng(1);
 
 			Assert.AreEqual(actual, expected);
 		}
